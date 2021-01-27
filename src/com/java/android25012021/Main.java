@@ -44,10 +44,17 @@ public class Main {
         }else{
             System.out.println("Không");
         }
-        if (!(a > 10)){
-            System.out.println("A bé hơn bằng 10");
-        }
 
+        4 : Câu điều kiện rẽ nhánh (switch case)
+        int thang = 2;
+        switch (thang){
+            case 1 : System.out.println("Quý 1");
+                break;
+            case 2 : System.out.println("Quý 1");
+                break;
+            case 3: System.out.println("Quý 1");
+                break;
+        }
         */
         
 
