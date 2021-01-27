@@ -17,6 +17,20 @@ public class Main {
             boolean e = true;
             System.out.print(e);
          Non-Primitive type(Kiểu đối tượng)
+         2 : Toán tử
+            int a = 5;
+            int b = 5;
+            int ketqua = a++ - --b - a++ + b-- + a++ - a++ - --b;
+            // 5 - --b - a++ + b-- + a++ - a++ - --b; a = 6 , b = 5
+            // 5 - 4 - a++ + b-- + a++ - a++ - --b; a = 6 , b = 4
+            // 5 - 4 - 6 + b-- + a++ - a++ - --b; a = 7 , b = 4
+            // 5 - 4 - 6 + 4 + a++ - a++ - --b; a = 7 , b = 3
+            // 5 - 4 - 6 + 4 + 7 - a++ - --b; a = 8 , b = 3
+            // 5 - 4 - 6 + 4 + 7 - 8 - 2; a = 9 , b = 2
+            // 1 - 2 + 7 - 8 -2
+            // 6 -8 -2
+            // -4
+            System.out.print(ketqua);
        */
     }
 }
