@@ -55,9 +55,34 @@ public class Main {
             case 3: System.out.println("Quý 1");
                 break;
         }
-        */
-        
 
+        5 : Vòng lặp for
+
+         1 --> 100 : In Số chẳn
+        for (int i = 0; i <= 100 ; i+= 2) {
+           System.out.println(i);
+        }
+         1 --> 100 : In Số lẻ
+        for (int i = 1; i <= 100 ; i+= 2) System.out.println(i);
+
+         1 --> 100 : In Số chia 3 dư 1
+        for (int i = 1; i <= 100 ; i+= 3) System.out.println(i);
+
+        6 : Vòng lặp while
+        
+         int a = 0;
+         Sử dụng cho các vòng lặp mà chưa biết kích thước cụ thể
+        while(a < 10){
+            System.out.println(a);
+            a++;
+        }
+        int a = 0;
+
+        do {
+            System.out.println(a);
+        }while (a < 0);
+        */
+       
 
 
     }
